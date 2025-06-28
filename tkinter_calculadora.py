@@ -36,7 +36,7 @@ def calcular():
 
 ventana=tk.Tk()
 ventana.title("Calculadora")
-ventana.geometry("300x400")
+ventana.geometry("390x400")
 
 entrada=tk.Entry(ventana,width=16,font=("Arial",24),bd=4,relief="ridge",justify="center")
 entrada.grid(row=0,column=0,columnspan=4,padx=10,pady=10)
